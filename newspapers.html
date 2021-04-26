@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <title>loginhomepage</title>
+
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  width: 170px;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+   width: 200px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+   width: 170px;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+   width: 200px;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+   width: 170px;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+   width: 200px;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+   width: 170px;
+}
+
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+   width: 200px;
+}
+
+.button5:hover {
+  background-color: #4CAF50;
+  color: white;
+   width: 170px;
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid blue;
+  width: 100px;
+}
+
+.button6:hover {
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+
+
+div.content{
+    background-color:yellow;
+    height:150px;
+    width:210px;
+    border:5px solid white;
+    float: left;
+    margin: 20px;
+    text-decoration-color: white;
+}
+
+div#first{
+  background-color: yellow;
+}
+
+#divLeft{
+  width: 28%;
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+#divCenter{
+  width: 40%;
+  height: 200px;
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+</style>
+
+<body>
+
+<body background="newspaper.jpg"
+style="background: repeat:no-repeat;background-size: 100% 100%">
+
+<hr style="height:2px;border-width:5px;color:gray;background-color:pink">
+<br>
+<h1>NEWSPAPER WORLD </style> <h4 style="text-align:right">(Customers happiness is our aim)</h4></h1>
+
+<hr style="height:2px;border-width:5px;color:gray;background-color:pink">
+
+
+<div id="divLeft">
+<a href="loginhomepage.html">
+  <button class="button button1">Profile</button> </a> 
+<br>
+<a href="newspapers.html">
+  <button class="button button2">NewsPapers</button></a>
+<br>
+<a href="custsubreq.html">
+  <button class="button button2">Submit Request</button></a>
+<br>
+<a href="custsersta.html">
+  <button class="button button3">Service Status</button></a>
+<br>
+<a href="custchapass.html">
+  <button class="button button4">Change Password</button></a>
+<br>
+<a href="home2.html">
+  <button class="button button5">Logout</button></a>
+</div>
+
+<a href="https://www.thehindu.com/" target="_blank"><h1>Hindu Newspaper</h1></a>
+<a href="https://www.eenadu.net/" target="_blank"><h1>Eenadu Newspaper</h1></a>
+<a href="https://www.sakshi.com/" target="_blank"><h1>Sakshi Newspaper</h1></a>
+<a href="https://www.andhrajyothy.com/" target="_blank"><h1>Andhrajyothy Newspaper</h1></a>
+</body>
+</html>
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 50%;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="#news">News</a></li>
+  <a href="custsubreq.html">
+  <li><a class="#contact">Submit Request</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;"><br><br><br>
+  <h2>Fixed Full-height Side Nav</h2>
+  <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+  <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+  <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+  <br>
+  <center>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" value=""><br><br>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <a href="update.html">
+  <button class="button button1">Update</button></a>
+  
+  </center><br>
+
+</div>
+
+</body>
+</html>--.

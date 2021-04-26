@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <title>custsersta</title>
+
+<style>
+#reqid{
+height:25px;}
+.button {
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  width: 200px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  width: 170px;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+  width: 170px;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  width: 200px;
+}
+
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+  width: 170px;
+}
+
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
+
+.button5:hover {
+  background-color: #4CAF50;
+  color: white;
+  width: 170px;
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
+
+.button6:hover {
+  background-color: #4CAF50;
+  color: white;
+  width: 170px;
+}
+
+div.content{
+    background-color:yellow;
+    height:150px;
+    width:210px;
+    border:5px solid white;
+    float: left;
+    margin: 20px;
+    text-decoration-color: white;
+}
+
+div#first{
+  background-color: yellow;
+}
+
+#divLeft{
+  width: 28%;
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+#divCenter{
+  width: 40%;
+  height: 250px;
+  float: left;
+  padding: 15px;
+  margin: 25px;
+font-size:30px;
+}
+
+input[type=text],  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+.ip{
+height:30px;}
+
+.btn{
+height:40px;}
+
+</style>
+
+<body>
+
+<body background="newspaper.jpg"
+style="background: repeat:no-repeat;background-size: 100% 100%">
+
+<hr style="height:2px;border-width:5px;color:gray;background-color:pink">
+
+<h1>NEWSPAPER WORLD </style> <h4 style="text-align:right">(Customers happiness is our aim)</h4></h1>
+
+<hr style="height:2px;border-width:5px;color:white;background-color:pink">
+
+
+<div id="divLeft">
+<a href="loginhomepage.html">
+  <button class="button button1">Profile</button> </a>   
+<br>
+<a href="newspapers.html">
+  <button class="button button1">NewsPapers</button> </a>   
+<br>
+<a href="custsubreq.html">
+  <button class="button button2">Submit Request</button></a>
+<br>
+<a href="custsersta.html">
+  <button class="button button3">Service Status</button></a>
+<br>
+<a href="custchapass.html">
+  <button class="button button4">Change Password</button></a>
+<br>
+<a href="home2.html">
+  <button class="button button5">Logout</button></a>
+</div>
+
+
+<div id="divCenter">
+<center>
+      <form action="">
+        <label for="name">Enter request id: </label><br>
+      <input type="text" name="name" class="ip" placeholder="enter request id" required><br><br>
+      <input type="submit" class="btn">
+      </form>
+  </center>
+ 
+
+</div>
+ <script>
+    var a=document.querySelector(".btn");
+    a.addEventListener("click",function(){
+        var dt=document.querySelector(".ip").value;
+        if(dt!="")
+        alert("your request is pending.");
+    })
+  </script>
+
+
+
+</body>
+</html>

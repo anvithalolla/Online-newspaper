@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+  color: skyblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+/* Section Images */
+section#home {
+  background: url('img1.jpg') no-repeat center center/cover;;
+}
+
+section#aboutus {
+   background: url('https://wallpaperaccess.com/full/39632.jpg') no-repeat center center/cover;;
+}
+
+section#service {
+  background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
+}
+
+section#contact {
+  background: url('http://classiquewireless.com/wp-content/uploads/2020/11/contact2-1536x960.jpg') no-repeat center center/cover;;
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar">
+      <ul>
+          <li><a href="home2.html">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  <section id="home">
+    <h1>Welcome To Our Site</h1>
+    <p class="lead"></p>
+  </section>
+  <section id="aboutus">
+      <h1>About Us</h1>
+      <p class="lead">We are successfully running this platform for past 3 years.<br> Check Feedback for your confirmation and conect with us.</p>
+  </section>
+  <section id="service">
+      <h1>Service</h1>
+      <p class="lead">We provide online news reading facility in 2 languages currently and Deliver Newspapers, Books and Magzines.<br>Customers happines is our aim.</p>
+  </section>
+  <section id="contact">
+      <h1>Contact</h1>
+      <p class="lead">For any queries Please fill the contact us form and we will defnitely reach you out.</p>
+  </section>
+</div>
+
+</body>
+</html>
